@@ -7,5 +7,5 @@
 
 +the drupal 8.x(depending on the versions that the drupalgeddon POC exploits) uses the cURL command to send a reverseshell whithin the request.
 
-# These are simple scripts that utilise POCS to get a reverseshell.
+# These are simple scripts that utilise POCs to get a reverseshell.
  
