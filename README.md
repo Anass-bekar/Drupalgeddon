@@ -3,9 +3,9 @@
 
 +You can by following comments understand and customize the exploit to fit your case.
 
-+the drupal 7.x(depending on the versions that the pimps script exploits) script uses the pimps script to send and execute a payload.
++the drupal 7.x exploit generates, uploads and executes a payload using msfvenom.
 
-+the drupal 8.x(depending on the versions that the drupalgeddon POC exploits) uses the cURL command to send a reverseshell whithin the request.
++the drupal 8.x exploit sends a simple one line reverseshell whithin the request.
 
 +start a listener in a separate terminal and execute the script.
 
